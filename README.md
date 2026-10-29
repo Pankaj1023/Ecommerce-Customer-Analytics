@@ -128,9 +128,6 @@ rfm['M_Score'] = pd.qcut(rfm['Monetary'], 5, labels=[1, 2, 3, 4, 5]).astype(int)
 3. Export `RetailCleaned` to CSV and run the notebook in `02_python` to generate the segmented dataset
 4. Open the Power BI file in `03_powerbi` and point it to the exported Excel file to refresh
 
----
 
-## Connect
 
-This project is on my YouTube channel, **Mansi G.**, where I break down real, end to end data analyst projects for freshers and early career professionals. Full build walkthrough video linked above.
 
